@@ -1,0 +1,86 @@
+<html style="margin:0;padding:0;">
+<title>Talia's tool 项目安全检查结果</title>
+<div style="width:100%;box-sizing:border-box;font-family:'Microsoft YaHei','PingFang SC',Arial,sans-serif;background:#f7f8fa;padding:24px;color:#1f2328;">
+  <div style="background:#fff;border:1px solid #e3e6ea;border-radius:12px;overflow:hidden;">
+    <div style="background:#2e7d32;color:#fff;padding:16px 24px;">
+      <div style="font-size:20px;font-weight:700;">项目安全检查结果</div>
+      <div style="font-size:13px;opacity:.9;margin-top:6px;">扫描对象：Talia's tool · 4 个文件 · 约 16 KB · 2026-10-28 · 未执行任何 Git 操作</div>
+    </div>
+
+    <div style="padding:20px 24px;">
+      <div style="font-size:15px;font-weight:700;margin-bottom:10px;">① 六项敏感内容检查</div>
+      <table style="width:100%;border-collapse:collapse;font-size:14px;">
+        <tr style="background:#f0f7f1;">
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;width:24%;">检查项</th>
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;width:18%;">结果</th>
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;">说明</th>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">密码 / Token</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 未发现</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">api_key / secret / token / 私钥 / JWT / GitHub Token 等 0 命中</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">个人隐私</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 基本干净</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">无手机号 / 邮箱 / 证件号 / 微信号；仅含主动使用的 "Talia" 标识</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">本地绝对路径</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 未发现</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">无 C:\... 等绝对路径；仅相对路径描述（如 .user_skills/）</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">临时文件</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 未发现</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">无 .tmp / .bak / .log / Office 锁文件 ~$ / Thumbs.db 等</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">测试垃圾文件</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 未发现</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">无测试脚本、调试残留、示例脏数据</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">不应公开的内容</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;color:#2e7d32;font-weight:700;">✓ 未发现</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">全为技能文档；未初始化 Git、未上传 GitHub，无公开暴露面</td>
+        </tr>
+      </table>
+
+      <div style="font-size:15px;font-weight:700;margin:20px 0 10px;">② 被扫描的文件清单</div>
+      <table style="width:100%;border-collapse:collapse;font-size:14px;">
+        <tr style="background:#f0f7f1;">
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;">文件</th>
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;width:18%;">大小</th>
+          <th style="text-align:left;padding:8px 12px;border:1px solid #e3e6ea;width:34%;">说明</th>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">LICENSE</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">1.0 KB</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">MIT License（版权人 Talia）</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">README.md</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">6.4 KB</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">项目说明与使用文档</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">oralenglish-skill/SKILL.md</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">7.6 KB</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">技能规则与对话流程（核心）</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">oralenglish-skill/agents/openai.yaml</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">0.6 KB</td>
+          <td style="padding:8px 12px;border:1px solid #e3e6ea;">技能展示信息</td>
+        </tr>
+      </table>
+
+      <div style="margin-top:20px;background:#f0f7f1;border:1px solid #cfe3d2;border-radius:8px;padding:12px 16px;font-size:14px;">
+        <span style="font-weight:700;color:#2e7d32;">结论：</span>6 项检查全部通过，项目内容干净，可安全发布。唯一提示：LICENSE 版权人及启动口令中的 <b>"Talia"</b> 为公开标识，发布到 GitHub 前请确认其公开意愿。
+      </div>
+      <div style="margin-top:10px;font-size:12px;color:#57606a;">扫描方式：4 个文件全文通读 + 3 轮正则扫描（密钥 / 路径 / 隐私 / URL 与长字符串模式）；含隐藏项递归目录检查，未发现 .git 目录，未执行任何 Git 操作。</div>
+    </div>
+  </div>
+</div>
+</html>
